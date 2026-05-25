@@ -5,7 +5,7 @@ const Cards = (props) => {
   return (
     <div>
          <a href={props.elem.url} target='_blank'>
-             <div className='h-50 w-55 overflow-hidden rounded-xl'> 
+             <div className='h-100 w-110 overflow-hidden rounded-xl'> 
             <img className='h-full w-full object-cover ' src={props.elem.download_url} />
            </div>
              <h1 className='text-xl font-bold'>{props.elem.author}</h1>
